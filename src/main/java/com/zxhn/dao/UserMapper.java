@@ -1,6 +1,6 @@
-package com.mmall.dao;
+package com.zxhn.dao;
 
-import com.mmall.pojo.User;
+import com.zxhn.pojo.User;
 import org.apache.ibatis.annotations.Param;
 
 public interface UserMapper {

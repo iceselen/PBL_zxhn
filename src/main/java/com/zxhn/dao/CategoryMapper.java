@@ -1,6 +1,6 @@
-package com.mmall.dao;
+package com.zxhn.dao;
 
-import com.mmall.pojo.Category;
+import com.zxhn.pojo.Category;
 
 import java.util.List;
 

@@ -54,5 +54,6 @@
 - 20230912 重构pom.xml，解决了20230906的报错问题。完成dao层封装，Web-INF待修改。
 - 20230913 细化项目分工
 - 20230918 修改dispatcher_servlet.xml，还是没解决web.xml，高度怀疑是pagerhelper版本问题。
+- 20230918 已解决web.xml问题
 
 changed the page in:202309013

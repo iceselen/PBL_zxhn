@@ -1,4 +1,4 @@
-# PBL_ZXHN
+_# PBL_ZXHN
 - 项目名称：置信惠农-农产品供需平台（类网上商城）
 - 开发语言: Java
 - 开发环境: IDEA2023 ， window 10 or 11
@@ -56,6 +56,6 @@
 - 20230918 修改dispatcher_servlet.xml，还是没解决web.xml，高度怀疑是pagerhelper版本问题。
 - 20230918 已解决web.xml问题
 - 20230918 创建UserController接口，登录功能接口完成，顺手写好了ServeResponser可重用类。更新db层及对应xml接口实现。待解决@Service注入错误问题。
-- 20230929 用git回退到fix paperhelper版本（版本号：534b5c0）,排查注入问题。确认pagerhelper5.x配置正确，注入问题待解决。考虑直接源码引用？
+- 20230919 用git回退到fix paperhelper版本（版本号：534b5c0）,排查注入问题。确认pagerhelper5.x配置正确，注入问题待解决。考虑直接源码引用？
 
-changed the page in:20230901
+changed the page in:202309019

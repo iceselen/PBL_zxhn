@@ -1,10 +1,10 @@
 _# PBL_ZXHN
-- 项目名称：置信惠农-农产品供需平台（类网上商城）
+- 项目名称：致信惠农-农产品供需平台（类网上商城）
 - 开发语言: Java
 - 开发环境: IDEA2023 ， window 10 or 11
 - 原型框架: 基于Maven org.apache.maven.archetypes:maven-archetype-webapp
 - 开源许可证: Apache-2.0
-- 本地调试: 基于Tomcat Server,Edge 浏览器
+- 本地调试: 基于Tomcat Server,Edge 浏览器（默认端口8080）
 - 源代码管理: 基于git 托管于github和gitee
 
 ## 项目分工：
@@ -42,7 +42,10 @@ _# PBL_ZXHN
 - https://gitee.com/iceselen/pbl_zxhn.git
 - git@gitee.com:iceselen/pbl_zxhn.git
 
-## 开发日志：
+## 在线QQ文档（仅供参考）
+- https://docs.qq.com/doc/DU0pXdXdxd25HdnBi?groupUin=O2Km7I%252BDr8Xj4hJ7qN79mg%253D%253D
+
+## 开发日志-后端：
 注：开发在分支v1.0上 master分支仅做大版本发布。
 - 20230901 和同组小伙伴们决定写这个要命的项目
 - 20230902 初步确定代码方案，这是最要命的后端
@@ -56,6 +59,9 @@ _# PBL_ZXHN
 - 20230918 修改dispatcher_servlet.xml，还是没解决web.xml，高度怀疑是pagerhelper版本问题。
 - 20230918 已解决web.xml问题
 - 20230918 创建UserController接口，登录功能接口完成，顺手写好了ServeResponser可重用类。更新db层及对应xml接口实现。待解决@Service注入错误问题。
-- 20230919 用git回退到fix paperhelper版本（版本号：534b5c0）,排查注入问题。确认pagerhelper5.x配置正确，注入问题待解决。考虑直接源码引用？
+- 20230919 用git回退到fix pagerhelper版本（版本号：534b5c0）,排查注入问题。确认pagerhelper5.x配置正确，注入问题待解决。考虑直接源码引用？
+- 20230919 重建ServeResponser和common的Const类，暂无问题。
+- 20230919 重建UserController类和对应接口IUserController（功能未补充完整），暂时没用接口注解，运行无误。
+- 20230920 解决misc.xml的问题。
 
-changed the page in:202309019
+changed the page in:202309020
